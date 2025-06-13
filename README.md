@@ -12,8 +12,8 @@ This repository provides reproducible implementations of seven representative me
 - **TAPE**: Uses LLM-generated explanations as features for text-attributed graphs, enhancing graph representation learning
 
 ### 3. LLM for Alignment
-- **G2P2**: Prompt tuning on graph-augmented low-resource text classification, aligning graph structure with language understanding
-- **GRAD**: Graph-aware distillation on textual graphs, training GNN teachers through knowledge distillation from LLMs
+- **G2P2**: Uses contrastive learning and soft prompt tuning to align node-level graph embeddings and language model representations for graph-enhanced node classification
+- **GRAD**: Graph-aware asymmetric distillation framework that transfers GNN teacher knowledge into lightweight language models via soft label matching on textual graphs
 
 ### 4. LLM as Annotator
 - **LLMGNN**: Label-free node classification on graphs with large language models, using LLMs to generate pseudo-labels for unlabeled nodes
