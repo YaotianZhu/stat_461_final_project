@@ -1,0 +1,12 @@
+﻿# 模型 / 检查点
+*.pt
+*.pth
+*.ckpt
+
+# 压缩包
+*.zip
+*.tar.gz
+
+# 数据、输出目录
+data/
+checkpoints/
